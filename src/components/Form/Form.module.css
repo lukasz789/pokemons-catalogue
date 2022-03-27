@@ -1,0 +1,37 @@
+.caption {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.input-wrap {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 0.5rem;
+}
+
+.input {
+  text-align: center;
+}
+
+.button-wrap {
+  text-align: center;
+}
+
+.button {
+  width: 25%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    width: 95%;
+  }
+
+  .input-wrap {
+    width: 95%;
+  }
+
+  .caption {
+    padding-bottom: 0;
+  }
+}

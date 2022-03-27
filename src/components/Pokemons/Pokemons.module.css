@@ -1,0 +1,25 @@
+.listWrap {
+  height: 65vh;
+  overflow: auto;
+}
+
+.pokemonList {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btnWrap {
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .listWrap {
+    height: auto;
+  }
+}
